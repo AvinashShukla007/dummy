@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eval4</title>
+    <style>
+        .body {
+            background-color: rgb(143, 140, 136);
+        }
+
+        .nav {
+            background-color: whitesmoke;
+            display: flex;
+            box-shadow: 7px 5px 10px grey;
+            margin-bottom: 100px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin-left: 300px;
+            font-size: xx-large;
+            color: cadetblue;
+            cursor: pointer;
+
+        }
+
+        .navbar li:hover {
+            color: grey;
+        }
+
+        .parent {
+
+            width: auto;
+            height: auto;
+            display: flex;
+            background-color: white margin: auto;
+
+        }
+
+        .box {
+            max-width: 350px;
+            margin: auto;
+            border-radius: 5px;
+            background-color: white;
+            padding: 20px;
+            background: rgb(224, 222, 218);
+        }
+
+        .btn {
+            border-radius: 30px;
+            background: black;
+            font-weight: bold;
+            padding: auto;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            margin-left: 40%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact List</li>
+                    <li>Favourites</li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+    </div>
+    <div class="parent">
+        <div class="box">
+            <h3 style="margin-left: 4px;">Enter Your Contact Details</h3>
+            <div style="margin-left: 4px;">
+                <input placeholder="Enter Contact Name">
+            </div>
+            <p></p>
+            <div style="margin-left: 4px;">
+                <input type="number" placeholder="Enter Mobile Number">
+            </div>
+            <p></p>
+            <div style="margin-left: 4px;">
+                <select id="item">
+                    <option value="item">Select type</option>
+                    <option value="item">Family</option>
+                    <option value="item">Friend</option>
+                    <option value="itemr">Othe</option>
+
+                </select>
+            </div>
+            <p></p>
+
+            <button class="btn">Submit</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
